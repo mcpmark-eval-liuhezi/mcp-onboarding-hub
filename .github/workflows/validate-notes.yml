@@ -1,0 +1,21 @@
+name: Validate MCP Notes
+
+# This workflow is started manually only - no push or pull_request triggers.
+on:
+  workflow_dispatch:
+
+jobs:
+  validate-notes:
+    name: Validate video notes exist
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Fail if notes/mcp-in-26-minutes.md is missing
+        run: |
+          if [ ! -f "notes/mcp-in-26-minutes.md" ]; then
+            echo "::error::Required file 'notes/mcp-in-26-minutes.md' is missing from this checkout."
+            exit 1
+          fi
+          echo "Found notes/mcp-in-26-minutes.md in the checkout."
