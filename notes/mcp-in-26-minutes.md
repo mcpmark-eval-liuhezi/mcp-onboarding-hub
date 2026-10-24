@@ -24,7 +24,7 @@ This is the reference video for our internal MCP onboarding session. Please watc
 
 Please complete the attendance knowledge check before the session:
 
-- **Quiz form (respondent link):** https://docs.google.com/forms/d/e/1FAIpQLSd6PRRvhAdkyEwEVrXyx7_2i8XJEIG-hNBdO67NjRwsvypLSg/viewform
+- **Quiz form (respondent link):** https://docs.google.com/forms/d/e/1FAIpQLSfHjaAjrgHktqi6WArckympiy8GFGiSCg8WVMzVR_E5EZ22Sw/viewform
 
 ## Further Reading
 
